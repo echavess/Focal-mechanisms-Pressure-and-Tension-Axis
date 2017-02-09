@@ -12,4 +12,4 @@ Strike Dip Rake
 
 Author: Esteban J. Chaves, University of California, Santa Cruz. 
 
-![alt tag](img.png)
+![alt tag](https://github.com/echavess/Focal-mechanisms-Pressure-and-Tension-Axis/blob/master/P_and_T_axis.png)
