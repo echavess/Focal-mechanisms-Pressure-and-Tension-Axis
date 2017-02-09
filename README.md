@@ -1,6 +1,6 @@
 # Focal-mechanisms-Pressure-and-Tension-Axis
 
-This python code computes the Pressure and Tension axis using focal mechanisms (Strike, Dip and Rake). 
+This python code generates the Pressure and Tension axis using focal mechanisms (Strike, Dip and Rake). 
 
 USAGE: 
 >> python plotPT
