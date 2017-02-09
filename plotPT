@@ -1,0 +1,56 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from PT_axis import Tensor_axes
+from scipy.interpolate import griddata
+
+# Switch between presentation modes: 
+
+plt.style.use('ggplot')
+#plt.style.use('dark_background')
+
+'''
+Defining file with data here: 
+format: strike, dip and rake; space separated columns
+'''
+
+file='example.dat'
+
+'''Reading file ''' 
+Strike, Dip, Rake = np.loadtxt(file, dtype=float, unpack=True, usecols=(0, 1, 2), skiprows=1)
+N = len(Strike)
+
+'''Input data into code and getting P and T axes'''
+calc = Tensor_axes(Strike, Dip, Rake)
+P, T = calc.PTB()
+
+'''Defining lower hemisphere projection''' 
+Fi = np.arange(0, 361, 0.1)
+x = np.cos(Fi*np.pi/180.0)
+y = np.sin(Fi*np.pi/180.0)
+
+
+'''Defining figure''' 
+figure1 = plt.figure(figsize=(6,6))
+ax = figure1.add_subplot(111)
+ax.set_xlim(-1.5, 1.5)
+ax.set_ylim(-1.5, 1.5)
+plt.title('Pressure and Tension axis', fontsize=14)
+
+for p, t in zip(P, T):
+	pressure = ax.plot(p[1], p[0], 'ro', markersize=10, alpha=0.5)
+	tension = ax.plot(t[1], t[0], 'go', markersize=10, alpha=0.5)
+
+plt.legend(['$P$', '$T$'], numpoints=1, fontsize=14)
+ax.text(0.24, 0.95,'Number of events = ' + str(N), ha='center', va='center',
+                     transform=ax.transAxes, fontsize=14, bbox=dict(facecolor='white', alpha=0.5))
+
+cirlce = ax.plot(x, y, 'k', linewidth=1.2, alpha=0.5)
+ax.fill_between(x,y, facecolor='yellow', alpha=0.3)
+
+ax.get_xaxis().set_ticks([])
+ax.get_yaxis().set_ticks([])
+
+
+plt.show()
+
+figure1.savefig("P_and_T_axis.png", format="png", dpi=500)
