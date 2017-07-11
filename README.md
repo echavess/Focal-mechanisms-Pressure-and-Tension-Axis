@@ -5,6 +5,8 @@
 ![alt text](https://www.gnu.org/graphics/lgplv3-147x51.png)
 [![Chaves](https://github.com/echavess/echavess.github.io/blob/master/OVSICORI_github_badge.svg)]()
 
+[![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg?style=plastic)]()
+
 
 
 
