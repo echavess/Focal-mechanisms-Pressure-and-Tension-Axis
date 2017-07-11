@@ -15,6 +15,6 @@ http://www.ovsicori.una.ac.cr
 
 ![alt text](https://github.com/echavess/Focal-mechanisms-Pressure-and-Tension-Axis/blob/master/Ovsicori-UNA-logo.jpg)
 
-
+If you are using the python code, please cite using the DOI:
 [![DOI](https://zenodo.org/badge/81490154.svg)](https://zenodo.org/badge/latestdoi/81490154)
 
