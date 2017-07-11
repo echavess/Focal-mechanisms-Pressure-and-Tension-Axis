@@ -13,4 +13,5 @@ Copyright (C): 2016, 2017. Esteban J. Chaves
 Volcanological and Seismological Observatory of Costa Rica (OVSICORI-UNA).
 http://www.ovsicori.una.ac.cr
 
-![alt tag](https://github.com/echavess/Focal-mechanisms-Pressure-and-Tension-Axis/blob/master/P_and_T_axis.png)
+![alt tag](https://www.dropbox.com/s/ut46embfiov51jm/Ovsicori-UNA-logo.jpg?dl=0)
+
