@@ -1,3 +1,14 @@
+'''
+Esteban J. Chaves - Volcanological and Seismological Observatory of Costa Rica, Universidad Nacional (OVSICORI-UNA)-
+Copyright(c) Esteban J. Chaves 2016-2017
+
+This is code is distributed under the License GNU LGPL. 
+Please cite using DOI: 10.5281/zenodo.825322
+
+Contact: esteban.chaves.sibaja@una.cr
+Website: https://github.com/echavess / http://www.ovsicori.una.ac.cr/index.php/ovsicori/personal
+'''
+
 import numpy as np
 import matplotlib.pyplot as plt
 from PT_axis import Tensor_axes
