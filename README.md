@@ -4,7 +4,7 @@
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 ![alt text](https://www.gnu.org/graphics/lgplv3-147x51.png)
 
-![alt text](https://www.dropbox.com/s/8j6bplkmnd4nk0c/OVSICORI_github_badge.svg?dl=0)
+
 
 
 
