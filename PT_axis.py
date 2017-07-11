@@ -4,8 +4,14 @@ using fault geometries: Strike, Dip and Rake angles from Moment tensor
 inversions or First motion P-wave arrivals. The figure is plotted in the 
 lower hemisphere using an equal-area projection. 
 
-Esteban J. Chaves -University of California Santa Cruz - 2016
+Esteban J. Chaves - Volcanological and Seismological Observatory of Costa Rica, Universidad Nacional (OVSICORI-UNA)-
+Copyright(c) Esteban J. Chaves 2016-2017
 
+This is code is distributed under the License GNU LGPL. 
+Please cite using DOI: 10.5281/zenodo.825322
+
+Contact: esteban.chaves.sibaja@una.cr
+Website: https://github.com/echavess / http://www.ovsicori.una.ac.cr/index.php/ovsicori/personal
 '''
 
 import numpy as np
