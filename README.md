@@ -3,6 +3,8 @@
 [![DOI](https://zenodo.org/badge/81490154.svg)](https://zenodo.org/badge/latestdoi/81490154) 
 ![alt text](https://www.gnu.org/graphics/lgplv3-147x51.png)
 
+[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+
 This python code computes the Pressure and Tension axis from focal mechanisms (Strike, Dip and Rake). 
 
 *  See input_file: plotPT for an example of how to get the code running. 
