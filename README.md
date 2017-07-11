@@ -1,6 +1,6 @@
 # PTFM: Pressure and Tension axis from earthquake Focal Mechanisms
 
-[![DOI](https://zenodo.org/badge/81490154.svg)](https://zenodo.org/badge/latestdoi/81490154) https://www.gnu.org/graphics/lgplv3-147x51.png
+[![DOI](https://zenodo.org/badge/81490154.svg)](https://zenodo.org/badge/latestdoi/81490154) ![alt text] https://www.gnu.org/graphics/lgplv3-147x51.png
 
 This python code computes the Pressure and Tension axis from focal mechanisms (Strike, Dip and Rake). 
 
