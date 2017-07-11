@@ -3,9 +3,8 @@
 [![DOI](https://zenodo.org/badge/81490154.svg)](https://zenodo.org/badge/latestdoi/81490154)
 [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 ![alt text](https://www.gnu.org/graphics/lgplv3-147x51.png)
-[![Chaves](https://github.com/echavess/echavess.github.io/blob/master/OVSICORI_github_badge.svg)]()
 
-[![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg?style=plastic)]()
+[![Travis branch](https://github.com/echavess/echavess.github.io/blob/master/OVSICORI_github_badge.svg)]()
 
 
 
