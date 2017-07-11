@@ -2,7 +2,7 @@
 
 This python code computes the Pressure and Tension axis from focal mechanisms (Strike, Dip and Rake). 
 
-Input_file: plotPT
+* Input_file: plotPT
 
 
 # License
