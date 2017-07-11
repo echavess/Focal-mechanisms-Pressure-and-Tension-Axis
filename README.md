@@ -1,4 +1,4 @@
-# Pressure and tension axis from earthquake focal mechanisms
+# PTFM: Pressure and Tension axis from earthquake Focal Mechanisms
 
 This python code generates the Pressure and Tension axis from focal mechanisms (Strike, Dip and Rake). 
 
